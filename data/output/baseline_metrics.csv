@@ -1,0 +1,2 @@
+Metrics:,Logistic Regression,Random Forest,K-Nearest Neighbor,Support Vector Machine,XGBoost,Decision Tree Classifier,Gradient Boosting Classifier
+Accuracy:,0.8,0.7666666666666667,0.6833333333333333,0.8,0.8,0.7333333333333333,0.7666666666666667

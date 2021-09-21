@@ -1,0 +1,32 @@
+<html>
+	<head>
+		<title> Heart Failure - Patient Survival Predictor </title>
+		<style>
+		body {background-color:powderblue;}
+h1 {color:white;}
+
+label{
+float: left
+display:inline-block;
+width:2500px;
+margin-right:50px;
+text-align:left;
+}
+
+input{
+}
+
+fieldset{
+border:none;
+width:1000px;
+margin:0px auto;
+}
+		</style>
+		<title>Heart Failure - Patient Survival Predictor</title>
+	</head>
+
+	<body>
+		<h2 style="color:black;margin-left:30px;">Heart Failure - Patient Survival Predictor - Result</h3>
+		<table><tr><td>The chances of Patient's survival is <b>{{ DEATH_EVENT_predicted }}</b> <br> Results Description - DEATH_EVENT: 0 = No, 1 = Yes </td></tr></table>
+	</body>
+</html>

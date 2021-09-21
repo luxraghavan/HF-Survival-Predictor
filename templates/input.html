@@ -1,0 +1,70 @@
+<html>
+	<head>
+		<title> Heart Failure - Patient Survival Predictor </title>
+		<style>
+		body {background-color:powderblue;}
+h1 {color:white;}
+
+label{
+float: left
+display:inline-block;
+width:2500px;
+margin-right:50px;
+text-align:left;
+}
+
+input{
+}
+
+fieldset{
+border:none;
+width:1000px;
+margin:0px auto;
+}
+		</style>
+		<title>Heart Failure - Patient Survival Predictor</title>
+	</head>
+
+	<body>
+		<h3 text-align: center> <style= "color:black;"> <b>Heart Failure Predictor - Input Form</b></h3>
+
+		<div>
+			<form action="/predict" method="POST">
+				<table>
+					<tr>
+						<td><label for="age">Age</label></td>
+						<td><input type="text" id="age" name="age" size="24"></td>
+						<td><label>Years(Range: 1-100)</label></td>
+					</tr>
+
+					<tr>
+						<td><label for="creatinine_phosphokinase">Creatinine Phosphokinase</label></td>
+						<td><input type="text" id="creatinine_phosphokinase" name="creatinine_phosphokinase" size="24"></td>
+						<td><label>mcg/L (Range: 0 - 9000)</label></td>
+					</tr>
+
+					<tr>
+						<td><label for="ejection_fraction">Ejection Fraction</label></td>
+						<td><input type="text" id="ejection_fraction" name="ejection_fraction" size="24"></td>
+						<td><label>Percentage(Range: 0 - 100)</label></td>
+					</tr>
+
+					<tr>
+						<td><label for="serum_creatinine">Serum Creatinine</label></td>
+						<td><input type="text" id="serum_creatinine" name="serum_creatinine" size="24"></td>
+						<td><label>mg/dL(Range: 0.5 - 9.90)</label></td>
+					</tr>
+
+					<tr>
+						<td><label for="serum_sodium">Serum Sodium</label></td>
+						<td><input type="text" id="serum_sodium" name="serum_sodium" size="24"></td>
+						<td><label>(mEq/L)(Range: 100-200)</label></td>
+					</tr>
+
+					<tr><td></td><td>&nbsp;</td><td></td></tr>
+					<tr><td></td><td><button type="reset" value="Reset">Reset</button> <input type="submit" value="Submit"></td><td></td></tr>
+				</table>
+			</form>
+		</div>
+	</body>
+</html>
